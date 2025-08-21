@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tanaman Kencur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+</head>
+<body class="bg-light">
+
+  <!-- Header dengan logo kiri + dropdown kanan -->
+  <header class="bg-success text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <!-- Logo + Judul -->
+      <div class="d-flex align-items-center">
+        <!-- Ganti logo.png dengan file logomu -->
+        <img src="TOGA/LOGO KKN.png" alt="Logo TOGA" style="width:60px;height:auto" class="me-3">
+        <div>
+          <h1 class="h4 mb-0">Tanaman TOGA</h1>
+          <p class="mb-0">Tanaman Obat Keluarga untuk Kesehatan Alami</p>
+        </div>
+      </div>
+      <!-- Dropdown Menu -->
+      <div class="dropdown">
+        <button class="btn btn-light text-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-list"></i> Menu
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="HomePage.html">Beranda</a></li>
+          <li><a class="dropdown-item" href="WADUK.html">Dokumentasi Waduk</a></li>
+          <li><a class="dropdown-item" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Konten Utama -->
+  <main class="container my-5">
+    <div class="card shadow-sm">
+      <!-- Ganti path gambar sesuai asetmu -->
+      <img src="toga/Kencur.jpg" class="card-img-top" alt="Tanaman Kencur">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+          <h2 class="text-success mb-0">Tanaman Kencur</h2>
+          <a href="HomePage.html" class="btn btn-outline-success">
+            <i class="bi bi-house-door-fill me-2"></i>Beranda
+          </a>
+        </div>
+        <hr>
+
+        <h3 class="text-success">Deskripsi</h3>
+        <p>Kencur (<em>Kaempferia galanga</em>) adalah tanaman rimpang dari keluarga Zingiberaceae. Memiliki daun lebar yang tumbuh dekat permukaan tanah, beraroma khas, dan sering dipakai sebagai bumbu masakan serta bahan jamu tradisional, terutama minuman <em>beras kencur</em>. Rimpang kencur kaya minyak atsiri (mis. etil p-metoksisinamat) yang memberi aroma sekaligus potensi aktivitas farmakologis.</p>
+
+        <h3 class="text-success mt-4">Manfaat</h3>
+        <ul>
+          <li>Membantu meredakan batuk, masuk angin, dan mual ringan.</li>
+          <li>Menunjang pencernaan: mengurangi kembung dan meningkatkan nafsu makan.</li>
+          <li>Sebagai antiradang dan antimikroba alami pada pemakaian tradisional.</li>
+          <li>Meringankan pegal linu (pemakaian luar sebagai param/oles).</li>
+        </ul>
+
+        <h3 class="text-success mt-4">Cara Penanaman</h3>
+        <ol>
+          <li><strong>Bibit:</strong> Pilih rimpang sehat bertunas (2–3 mata tunas), tidak busuk.</li>
+          <li><strong>Media:</strong> Tanah gembur kaya humus + kompos (±1:1). pH netral–sedikit asam. Kencur suka tempat agak teduh (naungan 30–50%).</li>
+          <li><strong>Penanaman:</strong> Tanam rimpang pada kedalaman 3–5&nbsp;cm, tunas menghadap atas. Jarak tanam ±20×20&nbsp;cm di bedengan atau pot minimal Ø25&nbsp;cm.</li>
+          <li><strong>Perawatan:</strong> Jaga kelembapan, siram secukupnya (jangan becek). Lakukan penyiangan gulma dan pemupukan organik berkala (tiap 4–6 minggu).</li>
+          <li><strong>Panen:</strong> 8–10 bulan setelah tanam saat daun mulai menguning/mengering. Angkat rimpang, bersihkan, jemur teduh sebelum disimpan.</li>
+        </ol>
+
+        <h3 class="text-success mt-4">Cara Pengolahan</h3>
+        <ul>
+          <li><strong>Segar:</strong> Rimpang dicuci, diparut/digeprak untuk bumbu atau ramuan hangat.</li>
+          <li><strong>Simplisia kering:</strong> Iris tipis, keringkan (diangin-anginkan/oven suhu rendah) untuk stok jangka panjang.</li>
+          <li><strong>Serbuk kencur:</strong> Simplisia kering digiling; praktis untuk campuran jamu.</li>
+          <li><strong>Minyak atsiri:</strong> Destilasi uap (skala industri/UKM) untuk aromaterapi/oles eksternal.</li>
+          <li><strong>Contoh jamu beras kencur (rumahan):</strong> Beras rendam 2–3 jam, blender bersama kencur segar, jahe sedikit, gula aren/madu, dan air matang hangat; saring dan sajikan.</li>
+        </ul>
+
+        <h3 class="text-success mt-4">Perhatian Penggunaan</h3>
+        <p>Konsumsi wajar umumnya aman. Hindari berlebihan pada lambung sensitif. Ibu hamil/menyusui atau pengguna obat tertentu sebaiknya konsultasi tenaga kesehatan. Hentikan bila muncul reaksi alergi/iritasi.</p>
+      </div>
+    </div>
+
+    <!-- Bagian Kontak (anchor untuk menu) -->
+    <section id="kontak" class="mt-5">
+      <div class="card border-0">
+        <div class="card-body text-center">
+          <p class="text-muted mb-1">Butuh info tambahan tentang budidaya kencur?</p>
+          <a href="mailto:admin@toga.local" class="btn btn-success">
+            <i class="bi bi-envelope-fill me-2"></i>Hubungi Kami
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 TOGA Nusantara
+  </footer>
+
+  <!-- Bootstrap JS Bundle (agar dropdown berfungsi) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
